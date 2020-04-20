@@ -846,6 +846,10 @@ h6 {
     text-align: justify;
 }
 
+.icon-block-description small {
+    font-variant:small-caps; margin-bottom:1em; display:inline-block;
+}
+
 /* Icon Right */
 
 .icon-right .icon {
