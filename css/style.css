@@ -850,7 +850,7 @@ p.section-subtitle {
     text-align: justify;
 }
 
-.icon-block-description small {
+.icon-block small {
     font-variant:small-caps; margin-bottom:1em; display:inline-block;
 }
 
@@ -2348,6 +2348,13 @@ blockquote {
 
 }
 
+.right-button {
+    float:right;
+}
+
+.two-columns {
+    columns: 2;
+}
 
 
 
