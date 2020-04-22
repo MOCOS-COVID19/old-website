@@ -784,6 +784,7 @@ p.section-subtitle {
 
 #banner {
     background-size: cover;
+    background-position: center -133px !important;
 }
 
 #banner-content.row {
