@@ -851,6 +851,10 @@ p.section-subtitle {
     text-align: justify;
 }
 
+.icon-block-description ul {
+    padding-left: 1em;
+}
+
 .icon-block small {
     font-variant:small-caps; margin-bottom:1em; display:inline-block;
 }
