@@ -2355,6 +2355,8 @@ blockquote {
 
 .right-button {
     float:right;
+    clear: both;
+    margin: 1ex;
 }
 
 .two-columns {
