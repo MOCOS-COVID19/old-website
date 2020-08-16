@@ -7,21 +7,21 @@
     <title>MOCOS - MOdelling COronavirus Spread</title>
 
     <!--Meta Keywords and Description-->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+    <link href="images/favicon.ico" rel="shortcut icon" title="Favicon"/>
 
     <!-- Main CSS Files -->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Namari Color CSS -->
-    <link rel="stylesheet" href="css/namari-color.css">
+    <link href="css/namari-color.css" rel="stylesheet">
 
     <!--Icon Fonts - Font Awesome Icons-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Animate CSS-->
     <link href="css/animate.css" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@
 
 <!-- Preloader -->
 <div id="preloader">
-    <div id="status" class="la-ball-triangle-path">
+    <div class="la-ball-triangle-path" id="status">
         <div></div>
         <div></div>
         <div></div>
@@ -41,7 +41,7 @@
 </div>
 <!--End of Preloader-->
 
-<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+<div class="page-border" data-wow-delay="0.2s" data-wow-duration="0.7s">
     <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
     <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
     <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
@@ -50,8 +50,8 @@
 
 <div id="wrapper">
 
-    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
-        <div id="header" class="nav-collapse">
+    <header class="scrollto clearfix" data-enllax-ratio=".5" id="banner">
+        <div class="nav-collapse" id="header">
             <div class="row clearfix">
                 <div class="col-1">
 
@@ -59,11 +59,12 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <img alt="Landing Page" id="banner-logo" src="images/logo.png"/>
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <a href="/index_polski.html"><img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/></a>
+                        <a href="/index_polski.html"><img alt="Landing Page" id="navigation-logo"
+                                                          src="images/logo-2.png"/></a>
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -73,7 +74,7 @@
                     </aside>
 
                     <!--Main Navigation-->
-                   <nav id="nav-main">
+                    <nav id="nav-main">
                         <ul>
                             <li>
                                 <a href="#banner">Góra</a>
@@ -106,13 +107,14 @@
         </div><!--End of Header-->
 
         <!--Banner Content-->
-        <div id="banner-content" class="row clearfix">
+        <div class="row clearfix" id="banner-content">
 
             <div class="col-38">
 
                 <div class="section-heading">
                     <h1>MOCOS</h1>
-                    <h2>Grupa MOCOS (MOdelling COronavirus Spread) to międzynarodowy interdyscyplinarny zespół naukowców zajmujący się modelowaniem epidemii COVID-19. </h2>
+                    <h2>Grupa MOCOS (MOdelling COronavirus Spread) to międzynarodowy interdyscyplinarny zespół naukowców
+                        zajmujący się modelowaniem epidemii COVID-19. </h2>
                 </div>
             </div>
 
@@ -123,33 +125,47 @@
     <main id="content">
 
         <!--Introduction-->
-        <section id="about" class="introduction scrollto">
+        <section class="introduction scrollto" id="about">
             <div class="row clearfix">
 
                 <div class="col-3">
                     <div class="section-heading">
                         <h3>PUBLIKACJE</h3>
                         <h2 class="section-title">Wyniki naszych prac</h2>
-                        <p class="section-subtitle">Naszym celem jest wsparcie instytucji publicznych w sprowadzeniu epidemii do stanu wygasania (podkrytycznego), tj. obniżenia skali reprodukcji wirusa do poziomu nieistotnego z punktu widzenia bezpieczeństwa publicznego.</p>
+                        <p class="section-subtitle">Naszym celem jest wsparcie instytucji publicznych w sprowadzeniu
+                            epidemii do stanu wygasania (podkrytycznego), tj. obniżenia skali reprodukcji wirusa do
+                            poziomu nieistotnego z punktu widzenia bezpieczeństwa publicznego.</p>
                     </div>
 
                 </div>
 
-                <div class="col-2-3">                    
+                <div class="col-2-3">
                     <!--Icon Block-->
                     <div class="col-1 icon-block icon-top wow" data-wow-delay="0.1s">
                         <!--Icon Block Description-->
                         <h4>Mitigation and herd immunity strategy for COVID-19 is likely to fail</h4>
-                        <small><i class="fa fa-file" aria-hidden="true"></i> publikacja naukowa, 30.03.2020</small>
+                        <small><i aria-hidden="true" class="fa fa-file"></i> publikacja naukowa, 30.03.2020</small>
                         <div class="icon-block-description two-columns">
-                            <p>Na podstawie semi-realistycznej mikrosymulacji SIR dla Niemiec i Polski pokazujemy, że przedział parametrów R0, dla którego epidemia COVID-19 pozostaje w stanie nadkrytycznym, ale poniżej granicy możliwości systemu opieki zdrowotnej, aby możliwe było osiągnięcie odporności stadnej, jest tak wąski, że pomyślna realizacja tej strategii nie jest prawdopodobna. Nasza mikrosymulacja opiera się na oficjalnych danych ze spisu powszechnego i obejmuje skład gospodarstw domowych oraz rozkład wieku jako główne zmienne struktury populacji. Kontakty zewnętrzne z gospodarstwami domowymi charakteryzujemy się wskaźnikiem reprodukcji R*, który jest jedynym swobodnym parametrem modelu.</p>
+                            <p>Na podstawie semi-realistycznej mikrosymulacji SIR dla Niemiec i Polski pokazujemy, że
+                                przedział parametrów R0, dla którego epidemia COVID-19 pozostaje w stanie nadkrytycznym,
+                                ale poniżej granicy możliwości systemu opieki zdrowotnej, aby możliwe było osiągnięcie
+                                odporności stadnej, jest tak wąski, że pomyślna realizacja tej strategii nie jest
+                                prawdopodobna. Nasza mikrosymulacja opiera się na oficjalnych danych ze spisu
+                                powszechnego i obejmuje skład gospodarstw domowych oraz rozkład wieku jako główne
+                                zmienne struktury populacji. Kontakty zewnętrzne z gospodarstwami domowymi
+                                charakteryzujemy się wskaźnikiem reprodukcji R*, który jest jedynym swobodnym parametrem
+                                modelu.</p>
 
-                            <p>Dla domeny subkrytycznej obliczamy czas do wyginięcia i chorobowość w funkcji początkowej liczby osób zakażonych i R*. Dla polskiego miasta Wrocławia omawiamy również łączny wpływ zasięgu testów i redukcji kontaktów. Dla obu krajów szacujemy R* dla progresji choroby do 20 marca 2020 roku.</p>
+                            <p>Dla domeny subkrytycznej obliczamy czas do wyginięcia i chorobowość w funkcji początkowej
+                                liczby osób zakażonych i R*. Dla polskiego miasta Wrocławia omawiamy również łączny
+                                wpływ zasięgu testów i redukcji kontaktów. Dla obu krajów szacujemy R* dla progresji
+                                choroby do 20 marca 2020 roku.</p>
 
-                            
+
                         </div>
-                        
-                        <a href="https://www.medrxiv.org/content/10.1101/2020.03.25.20043109v1" class="button right-button link-lightbox">PRZECZYTAJ 🇬🇧</a>
+
+                        <a class="button right-button link-lightbox"
+                           href="https://www.medrxiv.org/content/10.1101/2020.03.25.20043109v1">PRZECZYTAJ 🇬🇧</a>
                     </div>
                     <!--End of Icon Block-->
                 </div>
@@ -162,7 +178,54 @@
                     <div class="section-heading">
                         <h3>MEDIA</h3>
                         <h2 class="section-title">Wypowiedzi prasowe</h2>
-                        <p class="section-subtitle">Przegląd tekstów w prasie dotyczących naszych analiz i modelowań.</p>
+                        <p class="section-subtitle">Przegląd tekstów w prasie dotyczących naszych analiz i
+                            modelowań.</p>
+                    </div>
+                </div>
+                <div class="col-2-3">
+
+                    <div class="col-2 icon-block icon-top wow" data-wow-delay="0.1s">
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>
+                                Doradca rządu ds. epidemii ujawnia: „W resorcie zdrowia nikt nas nie słucha, to traci
+                                sens”
+                            </h4>
+                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                    aria-hidden="true" class="fa fa-news"></i>OKO Press, 13.05.2020</small>
+
+                            <p style="text-align:justify;">
+                                „Wesela i pogrzeby napędzają epidemię w kraju. Dlaczego rząd to toleruje? Dlaczego nie
+                                przywraca nakazu noszenia masek? My to cały czas rekomendujemy. Ale czy ktoś czyta nasze
+                                raporty?” - pyta w rozmowie z OKO.press prof. Tyll Krueger z Politechniki Wrocławskiej
+                            </p>
+
+                            <a class="right-button button link-lightbox"
+                               href="https://oko.press/doradca-rzadu-ds-epidemii-w-resorcie-zdrowia-nikt-nie-slucha/">PRZECZYTAJ
+                                🇵🇱</a>
+                        </div>
+                    </div>
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow" data-wow-delay="0.1s">
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>
+                                Kronika epidemii. Raport z 1 sierpnia: rekord w Polsce, a ekspert mówi, że możemy żyć
+                                bez restrykcji
+                            </h4>
+                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                    aria-hidden="true" class="fa fa-news"></i>Gazeta Wyborcza, 02.08.2020</small>
+
+                            <p style="text-align:justify;">Prof. Tyll Krüger przekonuje, że trzeba masowo instalować
+                                aplikację, dzięki której będzie można łatwiej wykrywać ogniska koronawirusa. Polacy nie
+                                chcą tego robić, a tymczasem notujemy kolejne rekordy w liczbie zakażonych.</p>
+
+                            <a class="right-button button link-lightbox"
+                               href="https://wroclaw.wyborcza.pl/wroclaw/7,35771,26177301,kronika-epidemii-raport-z-1-sierpnia-rekord-w-polsce-a-ekspert.html">PRZECZYTAJ
+                                🇵🇱</a>
+
+                        </div>
                     </div>
                 </div>
 
@@ -171,12 +234,19 @@
                     <div class="col-2 icon-block icon-top wow" data-wow-delay="0.1s">
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Potrzeba maseczek była oczywista już w styczniu. Powinniśmy produkować je w milionach</h4>
-                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>OKO Press, 13.05.2020</small>
+                            <h4>Potrzeba maseczek była oczywista już w styczniu. Powinniśmy produkować je w
+                                milionach</h4>
+                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                    aria-hidden="true" class="fa fa-news"></i>OKO Press, 13.05.2020</small>
 
-                            <p style="text-align:justify;">Z naszych wyliczeń wynika, że przestrzeń pomiędzy nic nierobieniem, a surowymi restrykcjami jest bardzo wąska. Innymi słowy, jeżeli będziesz miał szczęście, może ci się uda ograniczeniami doprowadzić do zbiorowej odporności, ale to w dużej mierze poruszanie się po omacku.</p>
+                            <p style="text-align:justify;">Z naszych wyliczeń wynika, że przestrzeń pomiędzy nic
+                                nierobieniem, a surowymi restrykcjami jest bardzo wąska. Innymi słowy, jeżeli będziesz
+                                miał szczęście, może ci się uda ograniczeniami doprowadzić do zbiorowej odporności, ale
+                                to w dużej mierze poruszanie się po omacku.</p>
 
-                            <a href="https://oko.press/prof-krueger-koronawirus-maseczki-zapotrzebowanie/" class="right-button button link-lightbox">PRZECZYTAJ 🇵🇱</a>
+                            <a class="right-button button link-lightbox"
+                               href="https://oko.press/prof-krueger-koronawirus-maseczki-zapotrzebowanie/">PRZECZYTAJ
+                                🇵🇱</a>
                         </div>
                     </div>
 
@@ -185,30 +255,45 @@
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
                             <h4>Ile jeszcze będziemy walczyli z pandemią?</h4>
-                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>Radio Wrocław, 11.05.2020</small>
+                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                    aria-hidden="true" class="fa fa-news"></i>Radio Wrocław, 11.05.2020</small>
 
-                            <p style="text-align:justify;">Wrocławscy naukowcy z zespołu MOCOS chcą przyspieszyć koniec epidemii koronawirusa. Czy najgorsze już za nami, czy wręcz przeciwnie? Ile to wszystko jeszcze może potrwać? Gościem Blogoskopu Radia Wrocław był doktor Piotr Szymański z Politechniki Wrocławskiej, członek zespołu MOCOS.</p>
+                            <p style="text-align:justify;">Wrocławscy naukowcy z zespołu MOCOS chcą przyspieszyć koniec
+                                epidemii koronawirusa. Czy najgorsze już za nami, czy wręcz przeciwnie? Ile to wszystko
+                                jeszcze może potrwać? Gościem Blogoskopu Radia Wrocław był doktor Piotr Szymański z
+                                Politechniki Wrocławskiej, członek zespołu MOCOS.</p>
 
-                            <a href="https://www.radiowroclaw.pl/articles/view/96136/Blogoskop-Ile-jeszcze-bedziemy-walczyli-z-pandemia" class="right-button button link-lightbox">POSŁUCHAJ 🇵🇱</a>
-                            
+                            <a class="right-button button link-lightbox"
+                               href="https://www.radiowroclaw.pl/articles/view/96136/Blogoskop-Ile-jeszcze-bedziemy-walczyli-z-pandemia">POSŁUCHAJ
+                                🇵🇱</a>
+
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row clearfix" style="padding-top: 32.5px;">
                 <!--Icon Block-->
                 <div class="col-3 icon-block icon-top wow" data-wow-delay="0.1s">
                     <!--Icon Block Description-->
                     <div class="icon-block-description">
                         <h4>Schulöffnungen könnten zu einem drastischen Anstieg der Infektionen führen</h4>
-                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>der tagesspiegel und bcc, 30.04.2020</small>
+                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                aria-hidden="true" class="fa fa-news"></i>der tagesspiegel und bcc, 30.04.2020</small>
 
-                        <p style="text-align:justify;">Wenn es gelingt, die Kontaktfreudigkeit der 15- bis 18-Jährigen in der Schule auf 18 Prozent zu reduzieren, infizieren sich demnach binnen 300 Tagen etwa 7800 Berliner und 156 sterben insgesamt. Davon abziehen muss man etwa 5500 Infizierte und 128 Tote, die es auch ohne Schulschließungen geben würde. Doch wenn nur eine Kontaktreduzierung auf 80 Prozent in diesem Altersbereich erreicht wird, also 8 statt 10 Kontakten, dann werden fast dreißig Mal so viele Berliner, etwa 200.000, infiziert und etwa 3000 Menschen sterben. Selbst eine Halbierung der Kontakte der Oberschüler (48 Prozent) führt noch zu rund 2700 Toten und 185.000 Infizierten.</p>
+                        <p style="text-align:justify;">Wenn es gelingt, die Kontaktfreudigkeit der 15- bis 18-Jährigen
+                            in der Schule auf 18 Prozent zu reduzieren, infizieren sich demnach binnen 300 Tagen etwa
+                            7800 Berliner und 156 sterben insgesamt. Davon abziehen muss man etwa 5500 Infizierte und
+                            128 Tote, die es auch ohne Schulschließungen geben würde. Doch wenn nur eine
+                            Kontaktreduzierung auf 80 Prozent in diesem Altersbereich erreicht wird, also 8 statt 10
+                            Kontakten, dann werden fast dreißig Mal so viele Berliner, etwa 200.000, infiziert und etwa
+                            3000 Menschen sterben. Selbst eine Halbierung der Kontakte der Oberschüler (48 Prozent)
+                            führt noch zu rund 2700 Toten und 185.000 Infizierten.</p>
 
-                        <a href="https://www.tagesspiegel.de/wissen/zweite-coronavirus-welle-schuloeffnungen-koennten-zu-einem-drastischen-anstieg-der-infektionen-fuehren/25789864.html" class="right-button button link-lightbox">PRZECZYTAJ 🇩🇪</a><br />
+                        <a class="right-button button link-lightbox"
+                           href="https://www.tagesspiegel.de/wissen/zweite-coronavirus-welle-schuloeffnungen-koennten-zu-einem-drastischen-anstieg-der-infektionen-fuehren/25789864.html">PRZECZYTAJ
+                            🇩🇪</a><br/>
 
-                        <a href="https://www.bccourier.com/school-openings-could-lead-to-a-drastic-increase-in-infections/" class="right-button button link-lightbox">PRZECZYTAJ 🇬🇧</a>
+                        <a class="right-button button link-lightbox"
+                           href="https://www.bccourier.com/school-openings-could-lead-to-a-drastic-increase-in-infections/">PRZECZYTAJ
+                            🇬🇧</a>
                     </div>
                 </div>
 
@@ -216,12 +301,22 @@
                 <div class="col-3 icon-block icon-top wow" data-wow-delay="0.1s">
                     <!--Icon Block Description-->
                     <div class="icon-block-description">
-                            <h4>To niemożliwe, żeby znieść ograniczenia i nie notować wzrostu liczby zakażonych</h4>
-                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>gazeta prawna, 23.04.2020</small>
+                        <h4>To niemożliwe, żeby znieść ograniczenia i nie notować wzrostu liczby zakażonych</h4>
+                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                aria-hidden="true" class="fa fa-news"></i>gazeta prawna, 23.04.2020</small>
 
-                            <p style="text-align:justify;">Zalecamy łączenie różnych działań. Przede wszystkim usprawnienie śledzenia kontaktów osób zarażonych i następnie badanie tych ludzi. Można dzięki temu znacząco zahamować rozprzestrzenianie się pandemii. Należy to jednak robić szybko i skutecznie, a więc usprawnić mechanizmy administracyjne. Pozytywny efekt wzmocni poszerzenie kategorii osób kwalifikujących się do testu na obecność koronawirusa. Pozwala to wykryć tych, którzy są nosicielami i zarażają, choć sami czują się nieźle albo całkiem dobrze. Oprócz tego należy utrzymać obowiązek ograniczenia kontaktów społecznych, zgromadzeń itp.</p>
+                        <p style="text-align:justify;">Zalecamy łączenie różnych działań. Przede wszystkim usprawnienie
+                            śledzenia kontaktów osób zarażonych i następnie badanie tych ludzi. Można dzięki temu
+                            znacząco zahamować rozprzestrzenianie się pandemii. Należy to jednak robić szybko i
+                            skutecznie, a więc usprawnić mechanizmy administracyjne. Pozytywny efekt wzmocni poszerzenie
+                            kategorii osób kwalifikujących się do testu na obecność koronawirusa. Pozwala to wykryć
+                            tych, którzy są nosicielami i zarażają, choć sami czują się nieźle albo całkiem dobrze.
+                            Oprócz tego należy utrzymać obowiązek ograniczenia kontaktów społecznych, zgromadzeń
+                            itp.</p>
 
-                            <a href="https://www.gazetaprawna.pl/artykuly/1471398,tyll-krueger-koronawirus-zniesienie-ograniczen-wybory.html" class="right-button button link-lightbox">PRZECZYTAJ 🇵🇱</a>
+                        <a class="right-button button link-lightbox"
+                           href="https://www.gazetaprawna.pl/artykuly/1471398,tyll-krueger-koronawirus-zniesienie-ograniczen-wybory.html">PRZECZYTAJ
+                            🇵🇱</a>
                     </div>
                 </div>
 
@@ -230,31 +325,36 @@
                 <div class="col-3 icon-block icon-top wow" data-wow-delay="0.1s">
                     <!--Icon Block Description-->
                     <div class="icon-block-description">
-                            <h4>Simulation: Mit Schulstart steigt die Gefahr von Infektionen</h4>
-                            <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>süddeutsche zeitung & die welt, 22.04.2020</small>
+                        <h4>Simulation: Mit Schulstart steigt die Gefahr von Infektionen</h4>
+                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                aria-hidden="true" class="fa fa-news"></i>süddeutsche zeitung & die welt,
+                            22.04.2020</small>
 
-                            <p style="text-align:justify;">Aufgrund der Corona-Pandemie sind die Schulen in Rheinland-Pfalz seit dem 16. März geschlossen. Auf Basis ihrer Ergebnisse kritisierten die Experten die geplante Schulöffnung am kommenden Montag. Das sei verfrüht.</p>
+                        <p style="text-align:justify;">Aufgrund der Corona-Pandemie sind die Schulen in Rheinland-Pfalz
+                            seit dem 16. März geschlossen. Auf Basis ihrer Ergebnisse kritisierten die Experten die
+                            geplante Schulöffnung am kommenden Montag. Das sei verfrüht.</p>
 
-                            <a href="https://www.sueddeutsche.de/gesundheit/krankheiten-mainz-simulation-mit-schulstart-steigt-die-gefahr-von-infektionen-dpa.urn-newsml-dpa-com-20090101-200422-99-794787" class="right-button button link-lightbox">PRZECZYTAJ 🇩🇪</a>
-                            
+                        <a class="right-button button link-lightbox"
+                           href="https://www.sueddeutsche.de/gesundheit/krankheiten-mainz-simulation-mit-schulstart-steigt-die-gefahr-von-infektionen-dpa.urn-newsml-dpa-com-20090101-200422-99-794787">PRZECZYTAJ
+                            🇩🇪</a>
+
                     </div>
                 </div>
 
-            </div>
-
-
-
-            <div class="row clearfix" style="padding-top: 32.5px;">
                 <!--Icon Block-->
                 <div class="col-3 icon-block icon-top wow" data-wow-delay="0.1s">
                     <!--Icon Block Description-->
                     <div class="icon-block-description">
                         <h4> Wissenschaftler befürchten Welle von Neuinfektionen durch Schulstart</h4>
-                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>die rheinpfalz, 21.04.2020</small>
+                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                aria-hidden="true" class="fa fa-news"></i>die rheinpfalz, 21.04.2020</small>
 
-                        <p style="text-align:justify;">Wissenschaftler der Universitäten Kaiserslautern, Koblenz-Landau und Trier haben davor gewarnt, in Rheinland-Pfalz die Schulen jetzt schon zu öffnen.</p>
+                        <p style="text-align:justify;">Wissenschaftler der Universitäten Kaiserslautern, Koblenz-Landau
+                            und Trier haben davor gewarnt, in Rheinland-Pfalz die Schulen jetzt schon zu öffnen.</p>
 
-                        <a href="https://www.rheinpfalz.de/lokal/pfalz-ticker_artikel,-wissenschaftler-bef%C3%BCrchten-welle-von-neuinfektionen-durch-schulstart-_arid,5057099.html" class="right-button button link-lightbox">PRZECZYTAJ 🇩🇪</a>
+                        <a class="right-button button link-lightbox"
+                           href="https://www.rheinpfalz.de/lokal/pfalz-ticker_artikel,-wissenschaftler-bef%C3%BCrchten-welle-von-neuinfektionen-durch-schulstart-_arid,5057099.html">PRZECZYTAJ
+                            🇩🇪</a>
                     </div>
                 </div>
 
@@ -262,12 +362,19 @@
                 <div class="col-3 icon-block icon-top wow" data-wow-delay="0.1s">
                     <!--Icon Block Description-->
                     <div class="icon-block-description">
-                        <h4>Unfreezing the state or wishful thinking? These are the models on the basis of which the government plans to relax restrictions</h4>
-                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i>gazeta prawna, 16.04.2020</small>
+                        <h4>Unfreezing the state or wishful thinking? These are the models on the basis of which the
+                            government plans to relax restrictions</h4>
+                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                aria-hidden="true" class="fa fa-news"></i>gazeta prawna, 16.04.2020</small>
 
-                        <p style="text-align:justify;">‒ Lifting all restrictions at this point would lead to a disaster: a sharp increase in the number of infected and deaths and the collapse of the health care system - stresses Prof. Tyll Krüger of the Wrocław University of Science and Technology, who is also working with the government.</p>
+                        <p style="text-align:justify;">‒ Lifting all restrictions at this point would lead to a
+                            disaster: a sharp increase in the number of infected and deaths and the collapse of the
+                            health care system - stresses Prof. Tyll Krüger of the Wrocław University of Science and
+                            Technology, who is also working with the government.</p>
 
-                        <a href="https://www.gazetaprawna.pl/artykuly/1469574,koronawirus-luzowanie-ograniczen-gospodarka-rzad-sklepy-lasy.html" class="right-button button link-lightbox">PRZECZYTAJ 🇵🇱</a>
+                        <a class="right-button button link-lightbox"
+                           href="https://www.gazetaprawna.pl/artykuly/1469574,koronawirus-luzowanie-ograniczen-gospodarka-rzad-sklepy-lasy.html">PRZECZYTAJ
+                            🇵🇱</a>
                     </div>
                 </div>
 
@@ -277,11 +384,16 @@
                     <!--Icon Block Description-->
                     <div class="icon-block-description">
                         <h4>The tougher the measures, the better</h4>
-                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i class="fa fa-news" aria-hidden="true"></i> Die ZEIT, 31.03.2020</small>
+                        <small style="font-variant:small-caps; margin-bottom:1em; display:inline-block;"><i
+                                aria-hidden="true" class="fa fa-news"></i> Die ZEIT, 31.03.2020</small>
 
-                        <p style="text-align:justify;">- Back to normal? No way - says mathematician Wolfgang Bock - Whoever wants Corona to disappear to a large extent in a year's time should not let up now.</p>
+                        <p style="text-align:justify;">- Back to normal? No way - says mathematician Wolfgang Bock -
+                            Whoever wants Corona to disappear to a large extent in a year's time should not let up
+                            now.</p>
 
-                        <a href="https://www.zeit.de/wissen/gesundheit/2020-03/coronavirus-deutschland-massnahmen-modelle-wolfgang-bock" class="button link-lightbox right-button">PRZECZYTAJ 🇩🇪</a>
+                        <a class="button link-lightbox right-button"
+                           href="https://www.zeit.de/wissen/gesundheit/2020-03/coronavirus-deutschland-massnahmen-modelle-wolfgang-bock">PRZECZYTAJ
+                            🇩🇪</a>
                     </div>
                 </div>
 
@@ -294,10 +406,15 @@
 
 
     <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
+    <footer class="clearfix" id="landing-footer">
         <div class="row clearfix">
-            <p id="copyright" class="col-2">Made with love by <a hrfe="https://www.shapingrain.com">ShapingRain</a> | Adres kontaktowy: <i class="fa fa-email"></i> <a href="mailto:mocos.international@gmail.com"> mocos.international@gmail.com</a> <a href="mailto:mocos.group@gmail.com">mocos.group@gmail.com</a></p>
-            <p>Autorzy pracy pragną podziękować za możliwość korzystania z infrastruktury obliczeniowej Wrocławskiego Centrum Sieciowo-Superkomputerowego, na potrzeby realizowanych przez nich działań badawczych, których wynikiem jest m.in. powyższa publikacja.</p>
+            <p class="col-2" id="copyright">Made with love by <a hrfe="https://www.shapingrain.com">ShapingRain</a> |
+                Adres kontaktowy: <i class="fa fa-email"></i> <a href="mailto:mocos.international@gmail.com">
+                    mocos.international@gmail.com</a> <a href="mailto:mocos.group@gmail.com">mocos.group@gmail.com</a>
+            </p>
+            <p>Autorzy pracy pragną podziękować za możliwość korzystania z infrastruktury obliczeniowej Wrocławskiego
+                Centrum Sieciowo-Superkomputerowego, na potrzeby realizowanych przez nich działań badawczych, których
+                wynikiem jest m.in. powyższa publikacja.</p>
         </div>
     </footer>
     <!--End of Footer-->
